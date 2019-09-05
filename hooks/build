@@ -1,0 +1,6 @@
+#!/bin/sh
+docker build \
+  --build-arg node_version=$DOCKER_TAG \
+  -f $DOCKERFILE_PATH \
+  -t $IMAGE_NAME .
+
