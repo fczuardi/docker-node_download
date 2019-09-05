@@ -6,6 +6,12 @@ Nodejs binaries downloaded.
 
 Tags on this project are node versions, so `fczuardi/node_download:10.16.3` should give node `v10.16.3`
 
+### Available tags
+
+- 12.10.0
+- 11.10.1
+- 10.16.3
+
 ## Usage
 
 This image was made for copying node binaries to other images on a 
